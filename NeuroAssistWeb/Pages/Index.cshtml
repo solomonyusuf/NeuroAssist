@@ -1,0 +1,79 @@
+﻿@page "/"
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container-fluid">
+    <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+        <div class="card-body px-4 py-3">
+            <div class="row align-items-center">
+                <div class="col-9">
+                    <h4 class="fw-semibold mb-8">Projects</h4>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a class="text-muted text-decoration-none">Project</a>
+                            </li>
+                            <li class="breadcrumb-item" aria-current="page">Scans</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-3">
+                    <div class="text-center mb-n5">
+                        <img src="assets/images/breadcrumb/ChatBc.png" alt="modernize-img" class="img-fluid mb-n4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="action-btn layout-top-spacing mb-7 d-flex align-items-center justify-content-between flex-wrap gap-6">
+        <a href="/add-scan" id="add-list" class="btn btn-primary">Add Project</a>
+        <form class="position-relative">
+            <input type="text" class="form-control search-chat py-2 ps-5" id="text-srh" placeholder="Search Projects scan">
+            <i class="ti ti-search position-absolute top-50 start-0 translate-middle-y text-dark ms-3"></i>
+        </form>
+    </div>
+    <div class="row">
+        <div class="col-md-4 d-flex align-items-stretch">
+            <a href="" class="card text-bg-primary text-white w-100 card-hover">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <i class="ti ti-perspective display-6"></i>
+                        <div class="ms-auto">
+                            <i class="ti ti-arrow-right fs-8"></i>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="card-title mb-1 text-white">Grace Abi Scan</h4>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4 d-flex align-items-stretch">
+            <a href="" class="card text-bg-primary text-white w-100 card-hover">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <i class="ti ti-perspective display-6"></i>
+                        <div class="ms-auto">
+                            <i class="ti ti-arrow-right fs-8"></i>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="card-title mb-1 text-white">Abiyo Dave Scan</h4>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+
+
+
+    </div>
+
+</div>
+
